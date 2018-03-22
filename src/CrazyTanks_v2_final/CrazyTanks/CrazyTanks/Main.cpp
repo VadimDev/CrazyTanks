@@ -24,7 +24,7 @@ int main()
 	// main game cycle
 	while (true)
 	{
-		if (engine->getTotalTanks() == 0)
+		if (engine->getTotalTanks() == engine->getDestroyedTanks())
 		{
 			system("cls");
 
